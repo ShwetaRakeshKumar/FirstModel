@@ -28,6 +28,12 @@ tv_spend = st.number_input(
     step=0.1                       # Increment step for the input
 )
 
+tv_spend2 = st.number_input(
+    'News papaer Advertising Spend ',        # Label for the input box
+    min_value=0.0,                 # Minimum allowed input value
+    step=0.1                       # Increment step for the input
+)
+
 # Create a numeric input box for Radio advertisement spend
 radio_spend = st.number_input(
     'Radio Advertising Spend',     # Label for the input box
