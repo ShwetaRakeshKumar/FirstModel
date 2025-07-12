@@ -17,7 +17,7 @@ def load_model_and_scaler():
 lr_model, scaler = load_model_and_scaler()
 
 # ---------- Streamlit App Title and Description ----------
-st.title("Sales Prediction App")           # App title shown at the top
+st.title("Sales Prediction App By Shweta")           # App title shown at the top
 st.write("Enter the advertisement spend below to predict the sales.")  # App description
 
 # ---------- User Input ----------
